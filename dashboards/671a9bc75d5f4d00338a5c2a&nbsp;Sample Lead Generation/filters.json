@@ -1,0 +1,63 @@
+{
+    "filters": [
+        {
+            "instanceid": "EEDBF-295E-5D",
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "Flow Status",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaLeadIAAaGeneration",
+                    "fullname": "localhost/Sample Lead Generation",
+                    "id": "localhost_aSampleIAAaLeadIAAaGeneration",
+                    "live": false,
+                    "title": "Sample Lead Generation"
+                },
+                "datatype": "text",
+                "dim": "[Lead Generation.Flow Status]",
+                "filter": {
+                    "explicit": true,
+                    "members": [
+                        "Drop Off"
+                    ],
+                    "multiSelection": true
+                },
+                "isDashboardFilter": true,
+                "merged": true,
+                "table": "Lead Generation",
+                "title": "Flow Status"
+            }
+        },
+        {
+            "instanceid": "958A7-DF83-AB",
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "Source",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaLeadIAAaGeneration",
+                    "fullname": "localhost/Sample Lead Generation",
+                    "id": "localhost_aSampleIAAaLeadIAAaGeneration",
+                    "live": false,
+                    "title": "Sample Lead Generation"
+                },
+                "datatype": "text",
+                "dim": "[Lead Generation.Source]",
+                "filter": {
+                    "explicit": true,
+                    "members": [
+                        "AdWords",
+                        "Email"
+                    ],
+                    "multiSelection": true
+                },
+                "isDashboardFilter": true,
+                "merged": true,
+                "table": "Lead Generation",
+                "title": "Source"
+            }
+        }
+    ]
+}

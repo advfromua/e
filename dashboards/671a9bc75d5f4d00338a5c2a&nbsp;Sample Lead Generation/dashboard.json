@@ -1,0 +1,39 @@
+{
+    "dataExploration": false,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aSampleIAAaLeadIAAaGeneration",
+        "fullname": "localhost/Sample Lead Generation",
+        "id": "localhost_aSampleIAAaLeadIAAaGeneration",
+        "live": false,
+        "title": "Sample Lead Generation"
+    },
+    "desc": "",
+    "filterRelations": [
+    ],
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "671a9bc75d5f4d00338a5c2a",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ],
+            "name": "Vivid"
+        }
+    },
+    "title": "Sample Lead Generation",
+    "widgets": [
+        "./widgets/671a9be95d5f4d00338a5c2d/widget.json"
+    ]
+}

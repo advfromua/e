@@ -1,0 +1,188 @@
+{
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "671a9bc75d5f4d00338a5c2a",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aSampleIAAaLeadIAAaGeneration",
+        "fullname": "localhost/Sample Lead Generation",
+        "id": "localhost_aSampleIAAaLeadIAAaGeneration",
+        "live": false,
+        "title": "Sample Lead Generation"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": false,
+        "displayFilterPane": false,
+        "displayHeaderRow": true,
+        "displayToolbarRow": false,
+        "drillToDashboardByName": false,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 1,
+        "drillToDashboardRightMenuCaption": "View",
+        "drilledDashboardDisplayType": 1,
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "excludeFilterDims": [
+        ],
+        "forceZeroInsteadNull": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "ignoreFiltersSource": false,
+        "includeFilterDims": [
+        ],
+        "mergeTargetDashboardFilters": false,
+        "modalWindowResize": false,
+        "resetDashFiltersAfterJTD": true,
+        "sameCubeRestriction": true,
+        "sendBreakByValueFilter": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "showFolderNameOnMenuSelection": false,
+        "showJTDIcon": true,
+        "volatile": true
+    },
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[Lead Generation.Source]",
+                            "index": 0
+                        },
+                        "instanceid": "6E2A7-3017-55",
+                        "jaql": {
+                            "column": "Source",
+                            "datatype": "text",
+                            "dim": "[Lead Generation.Source]",
+                            "merged": true,
+                            "table": "Lead Generation",
+                            "title": "Source"
+                        },
+                        "panel": "rows"
+                    },
+                    {
+                        "field": {
+                            "id": "[Lead Generation.Referral Page]",
+                            "index": 1
+                        },
+                        "instanceid": "744B9-2509-73",
+                        "jaql": {
+                            "column": "Referral Page",
+                            "datatype": "text",
+                            "dim": "[Lead Generation.Referral Page]",
+                            "merged": true,
+                            "table": "Lead Generation",
+                            "title": "Referral Page"
+                        },
+                        "panel": "rows"
+                    },
+                    {
+                        "field": {
+                            "id": "[Lead Generation.Marketing Qualified]",
+                            "index": 2
+                        },
+                        "instanceid": "393B8-0BA9-C7",
+                        "jaql": {
+                            "column": "Marketing Qualified",
+                            "datatype": "text",
+                            "dim": "[Lead Generation.Marketing Qualified]",
+                            "merged": true,
+                            "table": "Lead Generation",
+                            "title": "Marketing Qualified"
+                        },
+                        "panel": "rows"
+                    }
+                ],
+                "name": "rows"
+            },
+            {
+                "items": [
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "columns"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "671a9be95d5f4d00338a5c2d",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "filter",
+        "drillToAnywhere": true,
+        "selector": false,
+        "triggersDomready": true
+    },
+    "originalFilters": [
+    ],
+    "script": "./script.js",
+    "script_old": "",
+    "style": {
+        "automaticHeight": true,
+        "colors": {
+            "columns": false,
+            "headers": false,
+            "members": false,
+            "rows": true,
+            "totals": false
+        },
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "source",
+                    "plural": "Source",
+                    "singular": "Source",
+                    "title": "Source"
+                },
+                {
+                    "id": "referral_page",
+                    "plural": "Referral Page",
+                    "singular": "Referral Page",
+                    "title": "Referral Page"
+                },
+                {
+                    "id": "marketing_qualified",
+                    "plural": "Marketing Qualified",
+                    "singular": "Marketing Qualified",
+                    "title": "Marketing Qualified"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        },
+        "pageSize": 25,
+        "scroll": false
+    },
+    "subtype": "pivot2",
+    "title": "",
+    "type": "pivot2"
+}
